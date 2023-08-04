@@ -1,28 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-p {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
-}
 html {
   background: linear-gradient(180deg, #7EC8E3, #0000FF, #000C66, #050A30);
 background-size: cover;
 background-attachment: fixed;
 }
 .repo_card {
-  background: #0f0c29; /* fallback for old browsers */
+  background: #6DD5FA; 
   background: -webkit-linear-gradient(
     to right,
-    #24243e,
-    #302b63,
-    #0f0c29
-  ); /* Chrome 10-25, Safari 5.1-6 */
+    #2980B9,
+    #6DD5FA,
+    #FFFFFF
+  ); 
   background: linear-gradient(
     to right,
-    #24243e,
-    #302b63,
-    #0f0c29
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    #2980B9,
+    #6DD5FA,
+    #FFFFFF
+  ); 
   color: white;
+  font-family: 'Quicksand', sans-serif;
   padding: 10px;
   border-radius: 10px;
   float: left;
