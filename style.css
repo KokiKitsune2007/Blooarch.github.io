@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+html {
+  background: linear-gradient(180deg, #0F2027, #F2F3F5);
