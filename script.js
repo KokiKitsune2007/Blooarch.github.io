@@ -21,33 +21,6 @@ function getUserRepoData(username) {
     .catch((error) => console.log(error));
 }
 
-function displayUserProfileData(data) {
-  let contents = [
-    'bio',
-    'public_repos',
-    'public_gists',
-    'followers',
-    'following',
-  ];
-  let text = ['Bio', 'Public Repos', 'Public Gists', 'Followers', 'Following'];
-  let icons_code = [
-    '<i class="fa-solid fa-book"></i>',
-    '<i class="fa-solid fa-folder"></i>',
-    '<i class="fa-solid fa-bars"></i>',
-    '<i class="fa-solid fa-user"></i>',
-    '<i class="fa-solid fa-user"></i>',
-  ];
-  let code = '';
-  for (let index = 0; index < contents.length; index++) {
-    code += `<span class="text-yellow">${
-      icons_code[index]
-    } </span></span><span class="text-blue">${text[index]}: </span> ${
-      data[contents[index]]
-    }<br>`;
-  }
-  document.querySelector('#profile_data').innerHTML = code;
-}
-
 function displayUserRepoData(data) {
   let code = '';
   let contents = [
