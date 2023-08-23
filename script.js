@@ -75,5 +75,5 @@ function displayUserRepoData(data) {
   }
   document.querySelector('#repos_data').innerHTML = code;
 }
-getUserProfileData('KokiTheGreat');
-getUserRepoData('KokiTheGreat');
+getUserProfileData('KokiX333');
+getUserRepoData('KokiX333');
