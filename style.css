@@ -3,7 +3,7 @@ html {
   background: linear-gradient(180deg, #7EC8E3, #0000FF, #000C66, #050A30);
 background-size: cover;
 background-attachment: fixed;
-  cursor: url('cursor.cur'), auto;
+  cursor: url('Cursor.cur'), auto;
 }
 .repo_card {
   background: #6DD5FA; 
